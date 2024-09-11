@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    margin: 20px 0;
+    width: 400px;
+    height: 25px;
+    background-color: rgb(255, 246, 248);
+    border: 2px solid pink;
+    border-radius: 2px;
+    outline-color: rgb(255, 91, 119);
+}
+h2{
+    color: rgb(255, 91, 119);
+}
+.btn1{
+    background-color: rgb(255, 91, 119);
+    padding: 3px;
+    border: 2px solid rgb(251, 78, 106);
+    border-radius: 2px;
+    color: #ffebeb;
+}
+.btn2{
+    background-color: rgb(255, 91, 119);
+    padding: 2px;
+    border: 2px solid rgb(251, 78, 106);
+    border-radius: 2px;
+    font-size: 16px;
+    margin: 0px 12px ;
+    color: #ffebeb;
+}
+.btn2:hover {
+    background-color: rgb(255, 51, 82);
+    padding: 2px;
+    border: 2px solid rgb(251, 78, 106);
+    border-radius: 2px;
+    font-size: 16px;
+    margin: 0px 12px ;
+    color: #ffebeb;
+    transition: 2s;
+}
+.btn3:hover {
+    background-color: rgb(255, 51, 82);
+    padding: 2px;
+    border: 2px solid rgb(251, 78, 106);
+    border-radius: 2px;
+    font-size: 16px;
+    color: #ffebeb;
+    transition:2s;
+}
+.btn3{
+    background-color: rgb(255, 91, 119);
+    padding: 2px;
+    border: 2px solid rgb(251, 78, 106);
+    border-radius: 2px;
+    font-size: 16px;
+    color: #ffebeb;
+}
+li{
+    margin:16px 0px;
+    font-size: 24px;
+
+}
