@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-export default function Input() {
+export default function InputComponent() {
     const [text, setText] = useState("")
     const myStorage = localStorage;
     const handleSave = () => {
