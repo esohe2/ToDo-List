@@ -74,7 +74,7 @@ export default function Output({ newText }) {
   };
 
   return (
-    <div>
+    <div >
       {lastStorage.sort().map((item, i) => (
         <li className='list' key={i}>
           {/* If the current item is being edited, show an input field */}
@@ -87,8 +87,8 @@ export default function Output({ newText }) {
           ) : (
             item[1] // Otherwise, show the item value
           )}
-
-          {/* Render Save button if in edit mode, otherwise show Edit */}
+          <div className='btns'>
+              {/* Render Save button if in edit mode, otherwise show Edit */}
           {editKey === item[0] ? (
             <button className='btn2' onClick={() => saveEdit(item[0])}>
               Save
@@ -102,6 +102,8 @@ export default function Output({ newText }) {
           <button className='btn3' onClick={() => handleRemove(item[0])}>
             Remove
           </button>
+          </div>
+          
         </li>
       ))}
     </div>

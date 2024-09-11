@@ -10,12 +10,13 @@
 }
 input{
     margin: 20px 0;
-    width: 400px;
+    width: 200px;
     height: 25px;
     background-color: rgb(255, 246, 248);
     border: 2px solid pink;
     border-radius: 2px;
     outline-color: rgb(255, 91, 119);
+    overflow: y-scroll;
 }
 h2{
     color: rgb(255, 91, 119);
@@ -35,6 +36,7 @@ h2{
     font-size: 16px;
     margin: 0px 12px ;
     color: #ffebeb;
+    
 }
 .btn2:hover {
     background-color: rgb(255, 51, 82);
@@ -66,5 +68,10 @@ h2{
 li{
     margin:16px 0px;
     font-size: 24px;
+    list-style-type:decimal; 
+}
 
+
+.btns{
+   margin-top: 4px;
 }
